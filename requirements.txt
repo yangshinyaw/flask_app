@@ -1,7 +1,6 @@
 Flask==2.0.3
 torch==1.10.0+cpu
-transformers==4.11.3  # Choose a version that works well with the following tokenizers version
-tokenizers==0.10.3
+transformers[sentencepiece]==4.11.3  # Replace tokenizers with sentencepiece
 Pillow==8.3.2
 gunicorn==20.1.0
 
